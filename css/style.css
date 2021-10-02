@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Sarala:700|Exo+2:300');
+
+.navbar{
+  background-color: black;
+  border-bottom: rgb(21, 53, 75) 5px solid;
+}
+
+.navbar .nav-link {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item .active{
+  border-radius: 25px;
+  background: #2a4a50;
+}
+ 
+.navbar-brand h3 {
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+
+.addmargin{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+#Biography {
+    padding-top: 110px;
+}
+.h4.text-justify.Biography{
+  font-family: 'Calibri';
+}
+
+#Skills, #contactme{
+  background-color: #f7f7f7;
+}
+
+#jet-icon:hover {
+  font-size: x-large;
+}
+
+.netwrok-icons a:hover {
+   font-size: 19px;
+   opacity: 0.8;
+}
+
+#hello {
+  background: rgb(218, 218, 226);
+}
+
+section .footTitle {
+  font-family: 'Tangerine', serif;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px rgb(224, 14, 14);
+}
+
+.fa-beat {
+  animation:fa-beat 5s ease infinite;
+}
+
+@keyframes fa-beat {
+  0% {
+    transform:scale(1);
+  }
+  1% {
+    transform:scale(1.3);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1.3);
+  }
+  40% {
+    transform:scale(1);
+  }
+  50% {
+    transform:scale(1.3);
+  }
+  60% {
+    transform:scale(1);
+  }
+  70% {
+    transform:scale(1.3);
+  }
+  80% {
+    transform:scale(1);
+  }
+  90% {
+    transform:scale(1.3);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+#footer {
+  background-image: url('../images/footer.png');
+  background-repeat: repeat-x;
+}
+
+#Nasaview {
+  background-image: url('../images/nasaView.jpeg');
+  height: 150px;
+  background-repeat: repeat-x;
+}
+
+.rocket{
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.buttonbuildrocket{
+  margin-left: 55px;
+}
