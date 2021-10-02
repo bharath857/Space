@@ -49,6 +49,9 @@ function getAstronauts() {
         document.getElementById("rocketlaunchmessage").setAttribute('style', 'color: red;text-align: center;')
       }
     })
+
+    document.getElementById("rocketlaunchmessage").innerHTML = "Sorry Rocket failed to reach space build new one!!!!"
+    document.getElementById("rocketlaunchmessage").setAttribute('style', 'color: red;text-align: center;')
 }
 
 
